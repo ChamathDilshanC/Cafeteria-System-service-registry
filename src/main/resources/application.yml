@@ -2,11 +2,8 @@ spring:
   application:
     name: service-registry
   config:
-    import: 'configserver:${CONFIG_SERVER_URI:http://localhost:9000}'
+    import: 'configserver:'
   cloud:
     config:
       uri: http://config.platform:9000
       fail-fast: true
-
-server:
-  port: 8761
