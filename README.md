@@ -149,7 +149,7 @@ The following services register with this Eureka Server:
 
 | Service Name        | Port | Type     | Description                      |
 | ------------------- | ---- | -------- | -------------------------------- |
-| **config-server**   | 8888 | Platform | Configuration Management         |
+| **config-server**   | 9000 | Platform | Configuration Management         |
 | **api-gateway**     | 8080 | Platform | API Gateway & Routing            |
 | **user-service**    | 8081 | Business | User Authentication & Management |
 | **menu-service**    | 8082 | Business | Menu & Food Item Management      |
