@@ -2,8 +2,7 @@ spring:
   application:
     name: service-registry
   config:
-    import: 'configserver:'
+    import: 'configserver:http://config.platform:9000'
   cloud:
     config:
       uri: http://config.platform:9000
-      fail-fast: true
